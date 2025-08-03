@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Daniel</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="#"  id="home" class="header-logo">Portfolio.</a>
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skilss</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="header-btn-wrap">
+            <a href="#" class="header-btn">Download CV <i class='bx bx-download'></i></a>
+        </div>
+    </nav>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="about-info">
+            <h4>Daniel Mawupemo Sotongbe</h4>
+            <h2>I am  a Software Enginner</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus esse explicabo velit aspernatur, sit expedita natus impedit quae autem corporis nemo quidem architecto odio consequatur ea, eos pariatur maiores quo?</p>
+        
+            <div class="about-btn-wrap">
+                    <a href="#" class="hire-me-btn">Hire me <i class='bx bx-money' ></i></a>
+                    <div class="socials">
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="about-img">
+            <div class="about-img-box">
+                <div class="about-img-item">
+                    <img src="images/salesman.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skill-section">
+        <h2>Skills</h2>
+
+        <div class="skill-wrap">
+
+            <!-- Frontend Skills -->
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>Tailwind</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                    `</ul>
+            </div>
+            
+            <!-- Backend Skills -->
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Python & Flask</li>
+                    <li>REST APIs</li>
+                    <li>Authentication & Authorization</li>
+                    <li>Node.js & Express</li>
+                </ul>
+            </div>
+            <!-- DATABASE Skills -->
+            <div class="skill-card">
+                <h3>Database</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>Postgres</li>
+                    <li>SQL</li>
+                    <li>NoSQL</li>
+                </ul>
+            </div>
+                
+        </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section id="projects" class="project-section">
+        <h2>Projects</h2>
+        <div class="projects-wrap">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/proj.jpg">
+                </div>
+                <div class="project-description">
+                    <h3>Scarecrow</h3>
+                    <p>A webapp that detect and scare off birds from eating crops.</p>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/proj.jpg">
+                </div>
+                <div class="project-description">
+                    <h3>Customers REST API</h3>
+                    <p>A simple customer API that has an endpoint /customers 
+                        and handles two types of requests: GET /customers (returns a list of customers) POST /customers (creates a new customer).</p>
+                </div>
+            </div>
+            <!-- Project 3  -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/proj.jpg">
+                </div>
+                <div class="project-description">
+                    <h3>Portfolio Website</h3>
+                    <p>A simple and neta portfolio website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION INTEREST -->
+    <section id="interests" class="interest-section">
+        <h2>Interests</h2>
+        <di class="interest-wrap">
+
+            <!-- Interest item 1 -->
+            <div class="interest-item">
+                <spanc class="interest-icon">📸</span>
+                    <h4>Photography</h4>
+                    <p>I enjoy capturing moments in time.</p>
+            </div>
+            <!-- Interest item 2 -->
+            <div class="interest-item">
+                <spanc class="interest-icon">📸</span>
+                    <h4>Reading</h4>
+                    <p>I'm an avid reader of both fiction and non-fiction.</p>
+            </div>
+            <!-- Interest item 3 -->
+            <div class="interest-item">
+                <spanc class="1nterest-icon">📸</span>
+                    <h4>Photography</h4>
+                    <p>I enjoy capturing moments in time,</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECTIOM CONTACT -->
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>   
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+        <div class="footer-content">
+            <p class="website-name">Portfolio.</p>
+            <div class="footer-socials">
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 My Awesome Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
