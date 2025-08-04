@@ -1,4 +1,4 @@
-\# Portfolio Website
+# Portfolio Website
 
 
 
@@ -150,9 +150,10 @@ Once logged into Vercel:
 
 
 
-\### Step 4: Check Live URL
+\### 
+Step 4: Check Live URL
 
-
+<img width="1084" height="398" alt="Screenshot 2025-08-03 213953" src="https://github.com/user-attachments/assets/2e926a08-2fee-4e6b-944f-9e2887c9bf1a" />
 
 \##### Live portfolio website URL
 
