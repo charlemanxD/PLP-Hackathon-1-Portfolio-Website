@@ -402,6 +402,11 @@ a {
     margin-bottom: 20px;
 }
 
+.project-image img {
+    width:250px;
+}
+
+
 .project-description {
     /* padding: 25px; */
 }
